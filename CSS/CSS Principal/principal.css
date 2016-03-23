@@ -12,7 +12,6 @@
 /*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
-
 ::selection {
     background: #FD685B;
     color: #fff;
@@ -2895,8 +2894,18 @@ footer .row-content.buffer {
 #bottom-footer {
 	text-shadow: 1px 1px 1px #000;
     font-size: 0.667em;
-	color:#C3C3C3;
+	color:#B8B8B8;
 }
+
+#footer-text:hover 
+{ 
+	text-decoration: none;
+	color: #FFFFFF;  
+}
+a:link   
+{   
+ text-decoration:none; 
+}  
 
 
 /*----------------------------------------------------------------

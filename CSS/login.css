@@ -1,10 +1,7 @@
-html{	
-	background: #111111 url(../Imagenes/background.png) top center no-repeat;
-	height:100%; 
-}
 body{
-	background: transparent url(../img/login-bg-overlay.png) repeat;
-	min-height:100%; 
+	background: #000 url(../Imagenes/background.jpg) fixed;
+	background-repeat: no-repeat;
+	background-position: center;	
 }
 .alert{
 	margin: 20px auto;
@@ -33,7 +30,7 @@ body{
 	-webkit-box-shadow: 2px 2px 5px #333;
 	-moz-box-shadow: 2px 2px 5px #333;
 	box-shadow: inset 0px 0px 200px #7E7E7E;
-	margin-top: 80px;
+	margin-top: 150px;
 }
 .login-logo{
 	text-align: center;
@@ -97,13 +94,13 @@ body{
 #usuario
 {
 	background: url(../Logos/usuario.png) no-repeat scroll 0 0 transparent;
-	height: 35px;
+	height: 38px;
 	border: 2px solid #bfbfbf;
 }
 #password
 {
 	background: url(../Logos/password.png) no-repeat scroll 0 0 transparent;
-	height: 35px;
+	height: 38px;
 	border: 2px solid #bfbfbf;	
 }
 .btn.btn-login {
@@ -145,13 +142,27 @@ label.checkbox input{
 	background: none;
 	border: 0;
 }
-#footer-text, #footer-text a{
+.footer, .push {	
+	margin-top: 140px;
+	height: 54px;
+	padding-top: 16px;
 	text-align: center;
+	color: #B8B8B8;
 	text-decoration: none;
-	color:#C3C3C3;
-	opacity: 1;
-	text-shadow: 1px 1px 1px #000;
-	margin: 3px;
+	background: rgb(22,22,22);
+    background: -moz-linear-gradient(top,  rgba(22,22,22,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(22,22,22,1) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(22,22,22,1) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#000000',GradientType=0 );
+}
+#footer-text:hover 
+{ 
+	text-decoration: none;
+	color: #FFFFFF;  
+}
+a:link   
+{   
+ text-decoration:none; 
 } 
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 @media only screen and (max-width: 479px) {
