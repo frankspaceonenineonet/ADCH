@@ -18,7 +18,7 @@
     <title>Intranet | GrupoNu3.com</title>
     <script src="JS/custom.modernizr.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
- </head>z
+ </head>
     <body>          
     	<div class="container" id="login-block">
             <div class="row">
