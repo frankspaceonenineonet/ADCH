@@ -1624,7 +1624,7 @@
 
 	body {
 		background-color: transparent;
-		background-image: linear-gradient(to top,rgba(255,0,4,0.33), rgba(255,255,255,0.40)), url("../../Imagenes/capback.jpg");
+		background-image: linear-gradient(to top,rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../Imagenes/capback.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3118,7 +3118,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: transparent;
-				background-image: linear-gradient(to top, rgba(255,0,4,0.33), rgba(255,255,255,0.40)), url("../../Imagenes/capback.jpg");
+				background-image: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../Imagenes/capback.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
