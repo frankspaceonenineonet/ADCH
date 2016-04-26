@@ -1,7 +1,14 @@
 body{
 	background: #000 url(../Imagenes/background.jpg) fixed;
+	width: 100%;
 	background-repeat: no-repeat;
-	background-position: center;	
+	background-position: center;
+}
+#bacolor
+{
+    background-color: rgba(255,0,4,0.22);
+    width: 300px;
+	border-radius: 100px;
 }
 .alert{
 	margin: 20px auto;
@@ -143,6 +150,7 @@ label.checkbox input{
 	border: 0;
 }
 .footer, .push {	
+	width: 100%;
 	margin-top: 140px;
 	height: 54px;
 	padding-top: 16px;

@@ -12,6 +12,36 @@
 /*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
+h6
+{
+    background-color: rgba(0,0,0,0.39);
+    width: 300px;
+    border-radius: 100px;
+}
+
+video { 
+   width:100%; 
+   max-width:75%; 
+   height:auto;  
+}
+
+.navglow {
+  border-radius: 100px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.navglow:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
 ::selection {
     background: #FD685B;
     color: #fff;
@@ -1632,8 +1662,8 @@ section.greyish {
 ----------------------------------------------------------------*/
 
 .call-to-action .row-content.buffer {
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .call-to-action {
@@ -2477,13 +2507,81 @@ input.button:active {
 
 .button.red,
 input.button.red {
-    background-color: #a80306;
+    background-color: transparent;
 }
 
-.button.red:hover,
-input.button.red:hover {
-    background-color: rgba(216,0,3,1.00);
+/* Pulse Grow */
+
+@-webkit-keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
+
+@keyframes pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.pulse-grow {
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse-grow:hover {
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+a {
+  color: #900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  position: relative;
+}
+
+a[title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+/*pulse-grow*/
 
 .button.orange,
 input.button.orange {
