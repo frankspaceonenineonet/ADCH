@@ -18,31 +18,28 @@ USE `adch`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `empleados`
+-- Table structure for table `administradores`
 --
 
-DROP TABLE IF EXISTS `empleados`;
+DROP TABLE IF EXISTS `administradores`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `empleados` (
-  `idempleado` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `administradores` (
+  `idadministrador` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
   `email` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
-  `telefono` varchar(10) COLLATE latin1_spanish_ci DEFAULT NULL,
-  `idempresa` int(11) NOT NULL,
-  `idpuesto` int(11) NOT NULL,
-  `fecha` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`idempleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla empleados para llevar el registro completo de los datos de los mismos';
+  `departamento` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
+  PRIMARY KEY (`idadministrador`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla de administradores. Seran los unicos que tendran accesos a los registros del personal.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `empleados`
+-- Dumping data for table `administradores`
 --
 
-LOCK TABLES `empleados` WRITE;
-/*!40000 ALTER TABLE `empleados` DISABLE KEYS */;
-/*!40000 ALTER TABLE `empleados` ENABLE KEYS */;
+LOCK TABLES `administradores` WRITE;
+/*!40000 ALTER TABLE `administradores` DISABLE KEYS */;
+/*!40000 ALTER TABLE `administradores` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -57,7 +54,7 @@ CREATE TABLE `empresas` (
   `nombre` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
   `giro` varchar(50) COLLATE latin1_spanish_ci NOT NULL,
   PRIMARY KEY (`idempresa`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla empresas para llevar el registro de las mismas';
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla empresas para llevar el registro de las mismas.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,6 +65,34 @@ LOCK TABLES `empresas` WRITE;
 /*!40000 ALTER TABLE `empresas` DISABLE KEYS */;
 INSERT INTO `empresas` VALUES (1,'Agricola MAAS','Giro'),(2,'Agroquimicos y Semillas la Fuerte','Giro'),(3,'Pepe Filete','Giro'),(4,'El Porvenir','Giro'),(5,'Empacadora Bonnacarne','Giro'),(6,'Financiera la Fuerte','Giro'),(7,'Porcicola Garleon','Giro'),(8,'Grand Pet','Giro'),(9,'Inpro','Giro'),(10,'Lapimi','Giro'),(11,'Nu3 Alimentos Balanceados','Giro'),(12,'Nu3 Materia Prima','Giro');
 /*!40000 ALTER TABLE `empresas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `personal`
+--
+
+DROP TABLE IF EXISTS `personal`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `personal` (
+  `idpersona` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
+  `email` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
+  `telefono` varchar(10) COLLATE latin1_spanish_ci DEFAULT NULL,
+  `idempresa` int(11) NOT NULL,
+  `idpuesto` int(11) NOT NULL,
+  `fecha` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`idpersona`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla empleados para llevar el registro completo de los datos de los mismos.';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `personal`
+--
+
+LOCK TABLES `personal` WRITE;
+/*!40000 ALTER TABLE `personal` DISABLE KEYS */;
+/*!40000 ALTER TABLE `personal` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -83,7 +108,7 @@ CREATE TABLE `puestos` (
   `idempresa` int(11) NOT NULL,
   PRIMARY KEY (`idpuesto`),
   KEY `idempresa` (`idempresa`)
-) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla donde incluyen los puestos para llevar el registro de cada empresa';
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla donde incluyen los puestos para llevar el registro de cada empresa.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -105,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-03-22 15:49:10
+-- Dump completed on 2016-04-08 15:20:00
