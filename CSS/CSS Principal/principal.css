@@ -12,10 +12,15 @@
 /*----------------------------------------------------------------
     General Rules
 ----------------------------------------------------------------*/
-
 ::selection {
     background: #FD685B;
     color: #fff;
+}
+
+#entrar:hover 
+{ 
+	text-decoration: none;
+	color: blue;  
 }
 
 ::-moz-selection {
@@ -287,7 +292,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9;
+    z-index: 90;
     padding: 0.5rem 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.97);
@@ -368,7 +373,7 @@ nav a {
 nav {
     position: relative;
     display: inline-block;
-    float: right;
+    /*float: right;*/
     clear: none;
 }
 
@@ -428,6 +433,7 @@ nav > ul > li {
 }
 
 nav > ul > li {
+	margin-left: 5px;
     padding: 0 0.778em;
     text-transform: uppercase;
     font-weight: 700;
@@ -543,10 +549,13 @@ nav ul.sub-menu > li:last-child > a {
 ----------------------------------------------------------------*/
 
 #intro-wrap {
+	background-image:url(../../Logos/logonu3glass.png);
+	background-position: center;
+	background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    height: 33.333em;
-    background-color: #363842;
+    height: 12.33em;
+    background-color: transparent;
 }
 
 #intro {
@@ -2895,8 +2904,18 @@ footer .row-content.buffer {
 #bottom-footer {
 	text-shadow: 1px 1px 1px #000;
     font-size: 0.667em;
-	color:#C3C3C3;
+	color:#B8B8B8;
 }
+
+#footer-text:hover 
+{ 
+	text-decoration: none;
+	color: #FFFFFF;  
+}
+a:link   
+{   
+ text-decoration:none; 
+}  
 
 
 /*----------------------------------------------------------------
