@@ -1,10 +1,12 @@
 function comprueba_dominio(nombre_dominio)
 {
+    /*regx = /^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/; 
+    return regx.test(email);*/
 var arr = new Array(
-'@nu3.com.mx');
+'@nu3.com.mx','@grandpet.com','@bonnacarne.com');
 var comprobacion = nombre_dominio;
 var val = true;
-var punto = comprobacion.lastIndexOf("@nu3.com.mx");
+var punto = comprobacion.lastIndexOf("@");
 var nombre_dominio = comprobacion.substring(0,punto);
 var extension = comprobacion.substring(punto,comprobacion.length);
     if(punto>2 && punto<57)

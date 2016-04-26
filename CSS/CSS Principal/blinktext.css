@@ -1,0 +1,14 @@
+.luz.on{
+  color: #FFFFFF;/*color del texto al cambiar*/
+  text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .0),
+     0px  0px 1px rgba(0,36,255,0.63);/*color de la luz del texto*/
+}
+.luz{
+  font-size:10px;/*tamaño de la fuente*/
+  color: #a80306;
+  text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .0);
+}
