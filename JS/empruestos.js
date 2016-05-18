@@ -11,9 +11,9 @@
                     $.post("Configuracion/puesto.php", datos, function(puestos) {
                         var $comboPuestos = $("#cboPuestos");
                         $comboPuestos.empty();
-                        $.each(puestos, function(index, cuidad) {
+                        $.each(puestos, function(index, puesto) {
                             //
-                            $comboPuestos.append("<option>" + cuidad.nombre + "</option>");
+                            $comboPuestos.append("<option value='"+puesto.id+"'>" + puesto.nombre + "</option>");
                         });
                     }, 'json');
                 }

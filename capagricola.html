@@ -10,19 +10,29 @@
 		<title>Intranet | GrupoNu3.com</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="CSS/CSS Capacitacion/stylecap.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="CSS/CSS Capacitacion/videostyle.css">
 	</head>
 	<body>
 
+	<div class="lite-modal" id="mp4">
+		<h1><font color="#FFFFFF">Video Sobre...</font></h1>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aliquam placeat dolorem ex corporis amet illo doloribus reiciendis eum minus? Reiciendis itaque distinctio sequi quaerat et est porro incidunt. Eligendi.
+		<video width="540"controls>
+			<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div class="lite-modal" id="youtube">
+		<h1><font color="#FFFFFF">Video Sobre...</font></h1>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aliquam placeat dolorem ex corporis amet illo doloribus reiciendis eum minus? Reiciendis itaque distinctio sequi quaerat et est porro incidunt. Eligendi.
+		<center><iframe width="560" height="315" src="https://www.youtube.com/embed/OYhsDJcunfg" frameborder="0" allowfullscreen></iframe></center>
+	</div>
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="capagricola.html"><img src="Logos/logonu3blanco.png" alt="logo" width="100" height="60"></a></h1>
+						<h1><a href="capagricola.html"><img src="Logos/logonu3.png" alt="logo" class="imgnav"></a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -62,7 +72,7 @@
 									<div class="content">
 										<h2 class="major">Maquinaria de Riego</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Ver video</a>
+										<a class="special" onclick="liteModal.open('#mp4')">Ver video</a>
                                         
 									</div>
 								</div>
@@ -75,7 +85,7 @@
 									<div class="content">
 										<h2 class="major">Capacitación General</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Ver video</a>
+										<a class="special" onclick="liteModal.open('#youtube')">Ver video</a>
 									</div>
 								</div>
 							</section>
@@ -87,7 +97,7 @@
 									<div class="content">
 										<h2 class="major">Mantenimiento de Cerdos</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Ver video</a>
+										<a class="special" onclick="liteModal.open('#mp4')">Ver video</a>
 									</div>
 								</div>
 							</section>
@@ -97,8 +107,8 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Autor</h2>
-							<p>"Pensamiento"</p>
+							<h2 class="major">El valor del respeto</h2>
+							<p>"Da siempre ejemplo de amabilidad y buen trato con todos."</p>
 							
 							
 							<center><strong><ul class="copyright">
@@ -114,7 +124,7 @@
 			<script src="JS/JS Capacitacion/jquery.min.js"></script>
 			<script src="JS/JS Capacitacion/jquery.scrollex.min.js"></script>
 			<script src="JS/JS Capacitacion/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script type="text/javascript" src="JS/JS Capacitacion/lite-modal.min.js"></script>
 			<script src="JS/JS Capacitacion/main.js"></script>
 
 	</body>

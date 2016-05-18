@@ -1,0 +1,215 @@
+body{
+	background: #F7F7F7;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#bacolor
+{
+    background-color: rgba(255,0,4,0.22);
+    width: 300px;
+	border-radius: 100px;
+}
+.btn.btn-loginbody{
+	background: #000 url(../Imagenes/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#login-block{	 
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+#login-block h3{
+	color: #FFF;
+	text-align: center;
+	font-size:1.5em;
+	opacity: 0.8;
+	text-shadow: 2px 2px 2px #000;
+	font-weight: normal; 
+}
+.login-box{
+	position: relative;
+	max-width:480px;	
+	background-color: white; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+	padding-bottom: 20px;
+	-webkit-box-shadow: 2px 2px 5px #333;
+	-moz-box-shadow: 2px 2px 5px #333;
+	box-shadow: inset 0px 0px 200px #7E7E7E;
+	margin-top: -15px;
+	box-shadow: distanciaX distanciaY difuminado color; 
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+.login-logo{
+	text-align: center;
+	padding: 15px 0 10px;
+}
+.login-logo img{
+	border:0;
+	display: inline-block;
+}
+.login-form form p{
+	width:80%;
+	margin: 5px auto 10px;
+	text-align: center;
+}
+.login-box hr{
+	margin:10px auto 20px;
+	width:80%;
+	border-top:1px solid rgba(0,0,0,0.17);
+	border-bottom:1px solid rgba(0,0,0,0.17);
+}
+.login-form input{
+	display: block;
+	margin:0 auto 15px;
+	width:90%;
+	background: #fefefe;
+	border:1px solid #bfbfbf;
+	color:#6c6c6c;
+	padding: 8px;
+	text-align: center;
+}
+select
+{
+	display: block;
+	margin:0 auto 15px;
+	width:90%;
+	background: #fefefe;
+	border:1px solid #bfbfbf;
+	color:#6c6c6c;
+	padding: 8px;
+	text-align: center;	
+}
+#nombre
+{
+	background: url(../Logos/usuario.png) no-repeat scroll 0 0 transparent;
+	height: 38px;
+	border: 2px solid #B7B7B7;
+	width: 100%;
+}
+#email
+{
+	background: url(../Logos/email.png) no-repeat scroll 0 0 transparent;
+	height: 38px;
+	border: 2px solid #B7B7B7;
+	width: 100%;	
+}
+#telefono
+{
+	background: url(../Logos/telefono.png) no-repeat scroll 0 0 transparent;
+	height: 38px;
+	border: 2px solid #B7B7B7;
+	width: 100%;
+}
+#password
+{
+	background: url(../Logos/password.png) no-repeat scroll 0 0 transparent;
+	height: 38px;
+	border: 2px solid #B7B7B7;	
+	width: 100%;
+}
+select
+{
+	background: scroll 0 0 transparent;
+	height: 38px;
+	border: 2px solid rgba(166,0,2,0.41);
+	color: #A0A0A0;
+	width: 100%;
+}
+.btn.btn-loginizq {
+	width: 120px;
+	display:block;
+	margin: 20px auto 20px;
+	color: white;
+	text-transform:uppercase ;	
+	text-shadow: 1px 2px 2px #a80306;
+	background: rgb(168,3,6);
+    background: -moz-linear-gradient(top,  rgba(168,3,6,1) 0%, rgba(147,2,5,1) 44%, rgba(107,0,1,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(168,3,6,1) 0%,rgba(147,2,5,1) 44%,rgba(107,0,1,1) 100%);
+    background: linear-gradient(to bottom,  rgba(168,3,6,1) 0%,rgba(147,2,5,1) 44%,rgba(107,0,1,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80306', endColorstr='#6b0001',GradientType=0 );
+	border: 1px solid #a80306;
+	-webkit-box-shadow: inset 0 1px 2px #a80306;
+	-moz-box-shadow: inset 0 1px 2px #a80306;
+	box-shadow: inset 0 1px 2px #a80306;
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-o-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+	margin-right: 163px;
+	margin-top: 1px;
+}
+.btn.btn-loginder {
+	width: 120px;
+	display:block;
+	margin: 20px auto 20px;
+	color: white;
+	text-transform:uppercase ;	
+	text-shadow: 1px 2px 2px #a80306;
+	background: rgb(168,3,6);
+    background: -moz-linear-gradient(top,  rgba(168,3,6,1) 0%, rgba(147,2,5,1) 44%, rgba(107,0,1,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(168,3,6,1) 0%,rgba(147,2,5,1) 44%,rgba(107,0,1,1) 100%);
+    background: linear-gradient(to bottom,  rgba(168,3,6,1) 0%,rgba(147,2,5,1) 44%,rgba(107,0,1,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80306', endColorstr='#6b0001',GradientType=0 );
+	border: 1px solid #a80306;
+	-webkit-box-shadow: inset 0 1px 2px #a80306;
+	-moz-box-shadow: inset 0 1px 2px #a80306;
+	box-shadow: inset 0 1px 2px #a80306;
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-o-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+	margin-left: 163px;
+	margin-top: -60px;
+	height: 38px;
+}
+.btn.btn-loginder:hover {	 
+	background: #a80306; 
+} 
+.btn.btn-reset{
+	width: 180px;
+}
+.btn.btn-loginizq:hover {	 
+	background: #a80306; 
+} 
+.btn.btn-reset{
+	width: 180px;
+}
+.footer, .push {
+	margin-top: 26px;	
+	height: 54px;
+	padding-top: 16px;
+	text-align: center;
+	color: #B8B8B8;
+	text-decoration: none;
+	background: rgb(22,22,22);
+    background: -moz-linear-gradient(top,  rgba(22,22,22,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(22,22,22,1) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(22,22,22,1) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#000000',GradientType=0 );
+}
+#footer-text:hover 
+{ 
+	text-decoration: none;
+	color: #FFFFFF;  
+}
+a:link   
+{   
+ text-decoration:none; 
+}  
+/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+@media only screen and (max-width: 479px) {
+	#login-block{	 
+		padding-top: 10px;
+		padding-bottom: 25px;
+	}	
+}
+/*Tablet Portrait Size to Tablet Landscape Size (devices and browsers)*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	#login-block {	 
+		margin: 0 auto;
+		width: 420px;
+	}	
+}

@@ -1,0 +1,54 @@
+  /*NAVBAR*/
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+      background-color: #F7F7F7;
+  }
+  .navbar-inverse .navbar-nav>li>a
+  {
+  	color: #B10000;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+  {
+  	color: #DC0101;
+  }
+  .navbar-inverse
+{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.53);
+  border-color: transparent;
+  background-color: #F1F1F1;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+  background-color: transparent;
+} 
+  /*/NAVBAR*/
+
+  /*VENTANAMODAL*/
+
+.informacion
+{
+	text-align:center;
+}
+
+select
+{
+	color: #A7A6A6;
+}
+
+input
+{
+	width: 273px;
+	margin: 0 center;
+  color: rgba(185, 185, 185, 0.98);
+}
+select
+{
+	width: 100%;
+}
+  /*/VENTANAMODAL*/
