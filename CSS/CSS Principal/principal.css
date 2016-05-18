@@ -21,8 +21,9 @@ h6
 
 video { 
    width:100%; 
-   max-width:75%; 
+   max-width:60%; 
    height:auto;  
+   border-radius: 20px;
 }
 
 .navglow {
@@ -360,7 +361,7 @@ header.transparent {
     background-color: #FFFFFF;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: 0 15px 60px rgba(255,255,255,0.78);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.53);
 }
 
 header.transparent.light #brand a,
@@ -502,6 +503,8 @@ nav .sub-arrow {
     padding-left: 0.500em;
     vertical-align: middle;
     font-size: 0.714em;
+    background-color: transparent;
+    display: table;
 }
 
 nav ul.sub-menu {
@@ -3002,7 +3005,7 @@ footer .row-content.buffer {
 #bottom-footer {
 	text-shadow: 1px 1px 1px #000;
     font-size: 0.667em;
-	color:#B8B8B8;
+	color:rgba(184, 184, 184, 0.7);
 }
 
 #footer-text:hover 

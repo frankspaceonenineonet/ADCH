@@ -1,125 +1,51 @@
-*{
-	margin: 0xp;
-	padding: 0px;
+html {
+  background-color: #ddd;
 }
 
-div#cuerpo{
-	margin: auto;
-	margin-top: 60px;
-	width: 1200px;
-	height: 300px;
+.perspective-card-wrap {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-perspective-origin: center;
+    perspective-origin: center;
+
+    display: inline-block;
+}
+.perspective-card__content {
+    position:absolute;
+    top:2rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    -webkit-transform: translateZ(40px);
+    transform: translateZ(40px);
+    -moz-osx-font-smoothing: grayscale;
+}
+.perspective-card {
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: 'open sans';
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 10px;
+
+    /* necessary for effect */
+    position: relative;
+    
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    will-change: transform;
 }
 
-div#izquierda{
-	width: 300px;
-	height: 300px;
-	float: left;
-}
-
-div#centro{
-	width: 550px;
-	height: 300px;
-	float: left;
-}
-
-div#derecha{
-	width: 350px;
-	height: 300px;
-	float: left;
-}
-
-#izquierda {
-width: 730px;
-height: 133px;
-line-height: 0px;
-color: transparent; font-size: 15px;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 300;
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-}
-
-#izquierda h2
-{
-	color:#91030d;
-}
-
-#izquierda i
-{
-	font-size: 60px;
-	color: #91030d;
-}
-
-#izquierda {
-padding: 10px;
-line-height: 20px;
-color: #575858;
-border-radius: 200px;
-text-align: center;
-}
-
-#centro {
-width: 730px;
-height: 133px;
-line-height: 0px;
-color: transparent; font-size: 15px;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 300;
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-}
-
-#centro h2
-{
-	color:#91030d;
-}
-
-#centro i
-{
-	font-size: 60px;
-	color: #91030d;
-}
-
-#centro {
-padding: 10px;
-line-height: 20px;
-color: #575858;
-border-radius: 200px;
-text-align: center;
-}
-
-#derecha {
-width: 730px;
-height: 133px;
-line-height: 0px;
-color: transparent; font-size: 15px;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 300;
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-}
-
-#derecha h2
-{
-	color:#91030d;
-}
-
-#derecha i
-{
-	font-size: 60px;
-	color: #91030d;
-}
-
-#derecha {
-padding: 10px;
-line-height: 20px;
-color: #575858;
-border-radius: 200px;
-text-align: center;
-}

@@ -11,6 +11,7 @@
     <link href="CSS/login.css" rel="stylesheet">
     <link href="CSS/animate-custom.css" rel="stylesheet">
     <link rel="shortcut icon" href="Logos/iconu3.png" type="image/png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <title>Intranet | GrupoNu3.com</title>
     <meta name="google-signin-client_id" content="161182765037-4o6q9k12copfel6f6ocvgiatgh77cq91.apps.googleusercontent.com">
 </head>
@@ -28,19 +29,45 @@
 			<hr>
                         <div class="login-form">
                                 <center><div class="g-signin2" data-onsuccess="onSignIn"></div></center>
+                                <br>
+                                <center><a href="registro.php"><button class="btnreg">Registrarse</button></a></center>
 			    </div> 			        	
                     </div>
                 </div>
             </div>
     	</div>
 	    <div class="footer">
-              <p><a href="#"><small><font color="#a80306" id="footer-text"><strong id="bacolor">&nbsp Administrativos &nbsp</strong>
-              </font></small></a><small><strong> | Copyright © 2016 GrupoNu3.com | </strong></small><a href="registro.php"><small>
-              <font color="#a80306" id="footer-text"><strong id="bacolor">&nbsp Registrarse &nbsp</strong></font></small></a></p>
+            <style type="text/css">
+            a
+            {
+                color: rgb(105, 105, 105);
+            }
+            a:hover
+            {
+                color: rgb(105, 105, 105);
+                text-decoration: none;
+            }
+            .btn-link
+            {
+                color: #ABABAB;
+                background-color: transparent;
+                border-color: transparent;
+                text-decoration: none;
+            }
+            .btn-link:hover
+            {
+                color: #FFFFFF;
+                background-color: transparent;
+                border-color: transparent;
+                text-decoration: none;
+            }
+            </style>
+              <small><strong> | Copyright © 2016 GrupoNu3.com | </strong></small><br>
+              <a href="Registros/accesoadmin.html" class="btn btn-link glyphicon glyphicon-list-alt">
+              </small></a>
         </div>
                  
         <script src="JS/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script> 
         <script src="JS/bootstrap.min.js"></script> 
         <script src="JS/placeholder-shim.min.js"></script>        
         <script src="JS/custom.js"></script>
