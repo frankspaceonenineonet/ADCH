@@ -38,7 +38,7 @@ body{
 	-webkit-box-shadow: 2px 2px 5px #333;
 	-moz-box-shadow: 2px 2px 5px #333;
 	box-shadow: inset 0px 0px 200px #7E7E7E;
-	margin-top: 21px;
+	margin-top: 4px;
 }
 .login-logo{
 	text-align: center;
@@ -133,14 +133,15 @@ select
 	transition: background .5s ease-in-out;
 }
 .btn.btn-login:hover {	 
-	background: #a80306; 
+	background: #a80306;
+	color: #FFFFFF; 
 } 
 .btn.btn-reset{
 	width: 180px;
 }
 .footer, .push {
 	margin-top: 26px;	
-	height: 54px;
+	height: 66px;
 	padding-top: 16px;
 	text-align: center;
 	color: #B8B8B8;

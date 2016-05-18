@@ -1,0 +1,27 @@
+p, button {
+  margin: 20px;
+  font-family: sans-serif; }
+
+h1{
+  margin-top: 5px; }
+
+video{
+  width: 100%;
+  margin-top: 20px; }
+
+.lite-modal {
+  padding: 40px;
+  background-color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  line-height: 1.6em; }
+
+#lovato{
+  background-color: #FFBBBB; }
+
+#youtube{
+  background-color: rgba(0, 0, 0, 0.63) }
+
+#mp4{
+  background-color: rgba(0, 0, 0, 0.63) }

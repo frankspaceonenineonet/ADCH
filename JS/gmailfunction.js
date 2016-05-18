@@ -1,7 +1,14 @@
 function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail());
-}
+  	var profile = googleUser.getBasicProfile();
+  	var email = profile.getEmail();
+
+	$.post("gmailfunction.php?", {email:email},
+		function (data){
+			if(data>0){
+				location.href="http://capitalhumano.comxa.com/wp";
+			}
+			else
+				alert("Usuario Invalido");
+			}
+			);
+		}
