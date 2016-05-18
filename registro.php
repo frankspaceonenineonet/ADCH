@@ -16,8 +16,6 @@
     <link href="CSS/Chosen/chosen.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="Logos/iconu3.png" type="image/png">
     <title>Intranet | GrupoNu3.com</title>
-    <script src="JS/custom.modernizr.js" type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
  </head>
     <body>          
     	<div class="container" id="login-block">
@@ -31,8 +29,8 @@
 		    	<div class="login-form">
                             <form name="test" onsubmit="return comprueba_dominio(test.valida_nombre.value)" action="login.html" method="post" autocomplete="off">
                             	<input id="nombre" type="text" name="nombre" placeholder="Nombre Completo" required="" class="input-field">   
-                                <input id="email" type="text" name=valida_nombre placeholder="nombre@nu3.com.mx" required="" class="input-field" style="text-transform:lowercase;" onkeyup="javascript:this.value=this.value.tolowerCase();">
-                                <input id="telefono" type="text" name="telefono" placeholder="000-000-0000" class="input-field" required="" onkeypress="return justNumbers(event);">                                                  
+                                <input id="email" type="text" title="Dominios Validos: Nu3/ GrandPet/ Bonnacarne" name=valida_nombre placeholder="nombre@empresa" required="" class="input-field" style="text-transform:lowercase;" onkeyup="javascript:this.value=this.value.tolowerCase();">
+                                <input id="telefono" type="text" name="telefono" placeholder="000-000-0000" class="input-field" onkeypress="return justNumbers(event);">                                                  
             
             <select id="cboEmpresas">
                 <option value="0">Seleccione una Empresa</option>
@@ -56,7 +54,7 @@
             </div>
     	</div>  
          <div class="footer">
-              <p><a href="http://gruponu3.com"><small><font color="#a80306" id="footer-text"><strong>Pagina Principal</strong></font></small></a><small><strong> | Copyright © 2016 | GrupoNu3.com | </strong></small><a href="login.html"><small><font color="#a80306" id="footer-text"><strong>Regresar</strong></font></small></a></p>
+              <p><a href="#"><small><font color="#a80306" id="footer-text"><strong id="bacolor">&nbsp Administrativos &nbsp</strong></font></small></a><small><strong> | Copyright © 2016 GrupoNu3.com | </strong></small><a href="login.html"><small><font color="#a80306" id="footer-text"><strong id="bacolor">&nbsp Regresar &nbsp</strong></font></small></a></p>
          </div>
 
         <script src="JS/jquery.min.js"></script>
@@ -69,5 +67,7 @@
         <script src="JS/validamail.js"></script>
         <script src="JS/Chosen/chosen.jquery.js" type="text/javascript"></script>
         <script>$("#idempresa").chosen(); /*dar formato de b?squeda al combo*/</script>
+        <script src="JS/custom.modernizr.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </body>
 </html>
