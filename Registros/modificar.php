@@ -17,10 +17,10 @@
 		<title>Intranet | GrupoNu3.com</title>
 		<link rel="shortcut icon" href="../Logos/iconu3.png" type="image/png">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	    <link href="../CSS/CSS Registros/bootstrap.css" rel="stylesheet">
-	    <link href="../CSS/CSS Registros/modificar.css" rel="stylesheet">
-	    <link href="../CSS/CSS Registros/animate-custom.css" rel="stylesheet">
-	    <link href="../CSS/CSS Registros/navandmodal.css" rel="stylesheet" media="screen">
+	    <link href="../CSS/CSS_Registros/bootstrap.css" rel="stylesheet">
+	    <link href="../CSS/CSS_Registros/modificar.css" rel="stylesheet">
+	    <link href="../CSS/CSS_Registros/animate-custom.css" rel="stylesheet">
+	    <link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
 	<nav class="navbar navbar-inverse" data-spy="affix">
@@ -71,7 +71,7 @@
 				<tr>
 					<input type="hidden" name="idpersona" value="<?php echo $id; ?>">
 					<td><input id="nombre" type="text" name="nombre" placeholder="Nombre Completo" required="required" class="input-field" value="<?php echo $row['nombre']; ?>" /></td>
-				</tr>	
+				</tr>
 				<tr>
 					<td><input id="email" type="text" title="Dominios Validos: Nu3/ GrandPet/ Bonnacarne" name=valida_mail placeholder="nombre@empresa" required="required" class="input-field" style="text-transform:lowercase;" onkeyup="javascript:this.value=this.value.tolowerCase();" value="<?php echo $row['email']; ?>" /></td>
 				</tr>

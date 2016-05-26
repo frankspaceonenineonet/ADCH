@@ -8,7 +8,7 @@ function onSignIn(googleUser) {
 				location.href="http://capitalhumano.comxa.com/wp";
 			}
 			else
-				alert("Usuario Invalido");
+				alert("¡Iniciaste sesión en Google! \n\nUsuario Invalido para el sistema. \n\nGrupo Nu3");
 			}
 			);
 		}
