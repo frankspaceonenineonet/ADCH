@@ -2,8 +2,6 @@
 	require('../Configuracion/registro_conex.php');
 
 	$nombre = $_POST['nombre'];
-
-	$email = $_POST['valida_mail'];
 	
 	$query="SELECT idpersona, nombre, email, telefono, idempresa, idpuesto, fecha FROM personal WHERE nombre LIKE '%$nombre%'";
 	
@@ -25,10 +23,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../JS/JS Registros/jquery-1.6.2.min.js"></script>
   <script type="text/javascript" src="../JS/JS Registros/jquery-ui-1.8.16.custom.min.js"></script>
-  <link href="../CSS/CSS Registros/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="screen">
-  <link href="../CSS/CSS Registros/navandmodal.css" rel="stylesheet" media="screen">
-  <link href="../CSS/CSS Registros/bootstrap.css" rel="stylesheet">
-  <link href="../CSS/CSS Registros/nuevo.css" rel="stylesheet">
+  <link href="../CSS/CSS_Registros/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="screen">
+  <link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
+  <link href="../CSS/CSS_Registros/bootstrap.css" rel="stylesheet">
+  <link href="../CSS/CSS_Registros/nuevo.css" rel="stylesheet">
 </head>
 <body>
 
@@ -145,7 +143,7 @@
 								<?php echo $row['fecha'];?>
 							</td>
 							<td>
-								<center><a href="eliminar.php?idpersona=<?php echo $row['idpersona'];?>"><button type="button" class="btn btn-danger glyphicon glyphicon-trash" title="Eliminar Registro"></button></a></center>
+								<center><a href="eliminar.php?idpersona=<?php echo $row['idpersona'];?>"><button type="button" class="btn btn-danger glyphicon glyphicon-trash" title="Eliminar Registro" onclick="return confirm('¿Estas seguro(a) que deseas eliminar este registro?. \n\nGrupo Nu3')"></button></a></center>
 							</td>
 						</tr>
 					<?php } ?>

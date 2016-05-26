@@ -15,9 +15,9 @@
 		<title>Intranet | GrupoNu3.com</title>
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="shortcut icon" href="../Logos/iconu3.png" type="image/png">
-		<link href="../CSS/CSS Registros/bootstrap.css" rel="stylesheet">
-	    <link href="../CSS/CSS Registros/animate-custom.css" rel="stylesheet">
-	    <link href="../CSS/CSS Registros/navandmodal.css" rel="stylesheet" media="screen">
+		<link href="../CSS/CSS_Registros/bootstrap.css" rel="stylesheet">
+	    <link href="../CSS/CSS_Registros/animate-custom.css" rel="stylesheet">
+	    <link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
 	</head>
 	
 	<body>
