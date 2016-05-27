@@ -3419,15 +3419,13 @@
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 52em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
 
-				.wrapper.spotlight .image img {
-					border-radius: 100%;
+				.wrapper.spotlight .image img {	
 					width: 100%;
 				}
 

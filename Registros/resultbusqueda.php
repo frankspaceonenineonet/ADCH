@@ -2,8 +2,6 @@
 	require('../Configuracion/registro_conex.php');
 
 	$nombre = $_POST['nombre'];
-
-	$email = $_POST['valida_mail'];
 	
 	$query="SELECT idpersona, nombre, email, telefono, idempresa, idpuesto, fecha FROM personal WHERE nombre LIKE '%$nombre%'";
 	
@@ -25,10 +23,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../JS/JS Registros/jquery-1.6.2.min.js"></script>
   <script type="text/javascript" src="../JS/JS Registros/jquery-ui-1.8.16.custom.min.js"></script>
-  <link href="../CSS/CSS Registros/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="screen">
-  <link href="../CSS/CSS Registros/navandmodal.css" rel="stylesheet" media="screen">
-  <link href="../CSS/CSS Registros/bootstrap.css" rel="stylesheet">
-  <link href="../CSS/CSS Registros/nuevo.css" rel="stylesheet">
+  <link href="../CSS/CSS_Registros/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="screen">
+  <link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
+  <link href="../CSS/CSS_Registros/bootstrap.css" rel="stylesheet">
+  <link href="../CSS/CSS_Registros/nuevo.css" rel="stylesheet">
 </head>
 <body>
 
@@ -37,11 +35,11 @@
     <li class="active"><a href="#"><img src="../Logos/logonu3.png" width="60" height="35"></a></li>
     <li><a href="http://gruponu3.com" class="btn btn-link glyphicon glyphicon-home" title="GrupoNu3.com"></a></li>
     <!--<li><a href="http://gruponu3.com">GrupoNu3.com</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1Et9KJDjL47YZYHzew8hYF5WtYPzSCzr9u8LtmAAIaIo/edit#gid=2003473687" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
     <!--<li><a href="#">Estadisticas</a></li>-->
     <li><a href="../login.html" class="btn btn-link glyphicon glyphicon-user" title="Inicio de Sesión"></a></li>
     <!--<li><a href="../login.html">Login</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>
+    <!--<li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>-->
     <!--<li><a href="#">Plataforma de Archivos</a></li>-->
     <li><a href="../principal.html" class="btn btn-link glyphicon glyphicon-list-alt" title="Capacitaciones"></a></li>
     <!--<li><a href="../principal.html">Capacitaciones</a></li>-->
@@ -145,7 +143,7 @@
 								<?php echo $row['fecha'];?>
 							</td>
 							<td>
-								<center><a href="eliminar.php?idpersona=<?php echo $row['idpersona'];?>"><button type="button" class="btn btn-danger glyphicon glyphicon-trash" title="Eliminar Registro"></button></a></center>
+								<center><a href="eliminar.php?idpersona=<?php echo $row['idpersona'];?>"><button type="button" class="btn btn-danger glyphicon glyphicon-trash" title="Eliminar Registro" onclick="return confirm('¿Estas seguro(a) que deseas eliminar este registro?. \n\nGrupo Nu3')"></button></a></center>
 							</td>
 						</tr>
 					<?php } ?>

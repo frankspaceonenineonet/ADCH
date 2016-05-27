@@ -1,0 +1,280 @@
+1	Operador	1
+2	Gte De Produccion	1
+3	Aux Contable	1
+4	Contador	1
+5	Enc. De Ventas	1
+6	Gte Administrativo	1
+7	Enc De Recursos Humanos	1
+8	Aux.  De Mantto.	1
+9	Enc De Almacen	1
+10	Head Grower	1
+11	Asistente De Grower	1
+12	Jefe De Mantenimiento	1
+13	Jefe De Riego	1
+14	Velador	1
+15	Aux Admon	1
+16	Inocuidad Y Calidad	1
+17	Aux De Inocuidad Y Calidad	1
+18	Supervisor Cultivo	1
+19	Compras	1
+20	Aux De Riego Y Fumigacion	1
+21	Jefe De Plagas Y Enfemedades	1
+22	Enc De Fact Y Venta	1
+23	Empacador	1
+24	Jefe De Empaque	1
+25	Aux De Empaque	1
+26	Control De Calidad	1
+27	Enc De Comision Seg. E Higiene	1
+28	Vigilante	1
+29	Cosecha Y Recoleccion	1
+30	Regador	1
+31	Fumigador Agricola	1
+32	Erradicador De Plagas	1
+33	Enc. De Administracion	1
+34	Jefe De Produccion	1
+35	Enc. Paletiz. Y Embarque	1
+36	Estibador	1
+37	Operador Armadora Caja	1
+38	Recepcion-Descarga	1
+39	Abastecedor	1
+40	Armador De Caja	1
+41	Aseo Y Limpieza	1
+42	Lavador De Cajas	1
+43	Etiquetador	1
+44	Facturacion Y Logistica	1
+45	Almacen De Materiales	1
+46	Operador De Tractocamion	1
+47	Aux. Recursos Humanos	1
+48	Mensajero	1
+49	Cargador	1
+50	Soldador	1
+51	Encargado Empaque	1
+52	Supervisor Empaque	1
+53	Auditor	1
+54	Encargado De Inocuidad	1
+55	Seguridad E Higiene	1
+56	Recepcionista	1
+57	Enc. Inventarios	1
+58	Aux. De Sanidad E Higiene	5
+59	Aux. De Almacen	5
+60	Aux. De Cocimientos	5
+61	Aux. En Salchichoneria	5
+62	Aux. Contable	5
+63	Aux. De Mantenimiento	5
+64	Aux. De Empaques Varios	5
+65	Aux. De Embutido De Jamon	5
+66	Administracion Compras	5
+67	Aux. De Inyeccion	5
+68	Lider De Cocimientos	5
+69	Lider De Recepcion De Carnicos	5
+70	Aux. De Almacen Carnicos	5
+71	Aux. De Almacen Secos	5
+72	Aux. De Almacen De Prod. Term.	5
+73	Jefe De Almacen De Prod. Term	5
+74	Office Boy	5
+75	Resp. De Coc. De Salchichas	5
+76	Gerente De Ventas	5
+77	Ayudante De Area	5
+78	Jefe De Desmolde Y Etiquetado	5
+79	Aux. De Desmolde Y Etiquetado	5
+80	Ayudante General	5
+81	Lider De Empaques Varios	5
+82	Operador Lavador De Cajas	5
+83	Operativo General De Area	5
+84	Aux. De Jamoneria	5
+85	Agente De Ventas	5
+86	Encargado De Marketing	5
+87	Costos	5
+88	Supervisor	5
+89	Desmolde Y Corte	5
+90	Emulsiones Finas	5
+91	Sistema Ventas	5
+92	Ayud.Elab.De Emulsiones Finas	5
+93	Ayud. De Emulsiones Gruesas	5
+94	Lider De Mantenimiento De Maq.	5
+95	Jefe De Departamento	5
+96	Aux. De Ventas	5
+97	Jardineria	5
+98	Lider De Mantto. Perf. Edif.	5
+99	Gerente Administrativo	5
+100	Aux. De Admon. De Prod.	5
+101	Lider De Area	5
+102	Lider De Lavanderia	5
+103	Lider De Emb. De Salchicha	5
+104	Jefe De Termoformados	5
+105	Jefe De Inyeccion	5
+106	Desgrasador	5
+107	Jefe De Depto. De Sistemas	5
+108	Recepcionista	5
+109	Contador	5
+110	Lider Operador De Embutido	5
+111	Pagos	5
+112	Limpieza Y Aseo	5
+113	Chofer Repartidor	5
+114	Desarrollo De Nuevos Mdos	5
+115	Vigilante	5
+116	Expendio Celaya	5
+117	Demostrador	5
+118	Supervisor De Produccion	5
+119	Aux. De Ahumados	5
+120	Enc De Recursos Humanos	5
+121	Gerente De Produccion	5
+122	Jefe De Ahumados	5
+123	Asistente Administrativo	5
+124	Asesor De Ventas	5
+125	Jefe De Sanidad E Higiene	5
+126	Encargada De Compras	5
+127	Aux. De Rebanados Y Termoforma	5
+128	Jefe De Almacen De Secos	5
+129	Aux. De Marketing	5
+130	Coordinacion De Ventas	5
+131	Gerente De Operaciones	5
+132	Jefe De Mantenimiento	5
+133	Asitente De Direccion	5
+134	Aux. De Desgrase	5
+135	Gerente De Expendios	5
+136	Aux. De Expendios	5
+137	Activador	5
+138	Formulador	5
+139	Asistente De Gerencia De Vtas.	5
+140	Jefe  De Cont. Y Aseg. De La C	5
+141	Gerente De Zona Centro	5
+142	Gerente Autoservicios	5
+143	Vendedor	5
+144	Promotor	5
+145	Atencion A Clientes	5
+146	Aux. De Credito Y Cobranza	5
+147	Capturista	5
+148	Gerente De Distribuidores	5
+149	Lider De Turno	5
+150	Chofer Personal	5
+151	Admon.  De Produccion	5
+152	Lider De Haccp	5
+153	Lider De Almacen Carnicos	5
+154	Lider Termoformados T-I	5
+155	Lider De Termoformados T-Ii	5
+156	Coordinador De Franquicias	5
+157	Demostrador La Piedad	5
+158	Chofer Repartidor Gdl	5
+159	Demostrador Tepic	5
+160	Supervisor De Ruta	5
+161	Aux De Chofer	5
+162	Facturacion	5
+163	Aux. De Informatica	5
+164	Auditor De Produccion	5
+165	Aux. De Capital Humano	5
+166	Aux. De Aseg. De La Calidad	5
+167	Aux. De Canastillas	5
+168	Gte De Rec Humanos	5
+169	Enc. De Facturacion	5
+170	Cred Y Cobranza	5
+171	Cordinador De Proc Admtvos	5
+172	Compras	5
+173	Planeador De Produccion	5
+174	Resp. De Admon De Produccion	5
+175	Aux Produccion	5
+176	Aux De Gerencia	5
+177	Coordinador	5
+178	Enc. Almace De Prodc Terminado	5
+179	Enc Comision Seg E Higiene	5
+180	Medico Responsable	5
+181	Enc. De Cocimientos	5
+182	Ayud De Area	5
+183	Enc De Almacen De Secos	5
+184	Jefe De Logistica	5
+185	Enc De Embutido	5
+186	Enc De Logistica Y Mtto	5
+187	Medico Tif	5
+188	Basculista	5
+189	Enc De Almacen De Carne	5
+190	Enc Termoformadores	5
+191	Aux Limpieza Carnicos	5
+192	Encargado De Area	5
+193	Albañil	5
+194	Practicante	5
+195	Encargado De Mantenimiento	5
+196	Auditor Expendios	5
+197	Ventas De Mostrador	5
+198	Despachador	5
+199	Cajera	5
+200	Aux De Carnicero	5
+201	Cuchillero	5
+202	Auditor Expendios Y Mantequera	5
+203	Repartidor	5
+204	Degustador	5
+205	Inyeccion	5
+206	Aux. De Rebanados	5
+207	Aux De Seg Industrial	5
+208	Aux De Costos	5
+209	Aux Almacen Carnes Edo Natural	5
+210	Enc De Higiene Y Sanidad	5
+211	Mensajero	5
+212	Enc Cred Y Cobranza	5
+213	Lider Admon Produccion	5
+214	Gerente Planta Produccion	5
+215	Jefe De Trafico Y Mantenimient	5
+216	Aux Calidad	5
+217	Lider Limpieza Carnicos	5
+218	Lider De Masajeo	5
+219	Aux De Masajeo	5
+220	Aux Emulsiones Finas	5
+221	Aux Admon Produccion	5
+222	Aux. Emulsiones Gruesas	5
+223	Encargada De Costos	5
+224	Encargado De Emulsiones Finas	5
+225	Encargada De Expendio Planta	5
+226	Enc. De Emulsiones Gruesas	5
+227	Encargado De Sistemas	5
+228	Auxiliar De Recursos Humanos	5
+229	Contador General	5
+230	Tecnico De Mantenimiento	5
+231	Asist. Gerencia De Produccion	5
+232	Enc. De Empaques Termoformador	5
+233	Enc. De Almacen De Cajas	5
+234	Aux. De Termoformadores	5
+235	Chofer De Mantequera	5
+236	Encargada De Mantequeras	5
+237	Coordinador De Expendios	5
+238	Encargado De Expendios	5
+239	Enc. Administrativo Mantequera	5
+240	Enc. De Seguridad Industrial	5
+241	Auxiliar Administrativo	5
+242	Supervisor De Calidad	5
+243	Distribuidor	8
+244	Preventista	8
+245	Supervisor	8
+246	Supervisor De Ventas	8
+247	Aux De Rec Hum	8
+248	Gerente Avt	8
+249	Agente De Vtas	8
+250	Aux Administrativo	8
+251	Gerente	8
+252	Gerente De Vtas	8
+253	Demostrador	8
+254	Promovendedor	8
+255	Cuenta Clave	8
+256	Ventas	8
+257	Enc De Clinic Grand Pet	8
+258	Cajera	8
+259	Ayudante	8
+260	Aux De Almacen	8
+261	Enc De Proyecto	8
+262	Analista De Venta	8
+263	Asesor Equipo D Arranque	8
+264	Aux De Mercadotecnia	8
+265	Medico Veterinario	8
+266	Enc. Canal Elite	8
+267	Supervisor Bajio	8
+268	Gerente Canal Veterinaria	8
+269	Enc. Mercadotecnia	8
+270	Asesor De Ventas Veterinario	8
+271	Agente Centro Oriente 1	8
+272	Agente Centro Oriente 3	8
+273	Agente Norte	8
+274	Agente  Noroeste	8
+275	Agente Sur	8
+276	Agente Suroeste	8
+277	Agente Toluca	8
+278	Agente Guadalajara	8
+279	Enc Ventas	8
+280	Entrega	8

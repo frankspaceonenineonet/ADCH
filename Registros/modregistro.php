@@ -25,23 +25,23 @@
 		<title>Intranet | GrupoNu3.com</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="shortcut icon" href="../Logos/iconu3.png" type="image/png">
-		<link href="../CSS/CSS Registros/navandmodal.css" rel="stylesheet" media="screen">
-  		<link href="../CSS/CSS Registros/bootstrap.css" rel="stylesheet">
-  		<link href="../CSS/CSS Registros/nuevo.css" rel="stylesheet">
-  		<link href="../CSS/CSS Registros/modificar.css" rel="stylesheet">
+		<link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
+  		<link href="../CSS/CSS_Registros/bootstrap.css" rel="stylesheet">
+  		<link href="../CSS/CSS_Registros/nuevo.css" rel="stylesheet">
+  		<link href="../CSS/CSS_Registros/modificar.css" rel="stylesheet">
 	</head>
 	
 	<body>
-	<nav class="navbar navbar-inverse" data-spy="affix">
+<nav class="navbar navbar-inverse" data-spy="affix">
   <ul class="nav navbar-nav">
     <li class="active"><a href="#"><img src="../Logos/logonu3.png" width="60" height="35"></a></li>
     <li><a href="http://gruponu3.com" class="btn btn-link glyphicon glyphicon-home" title="GrupoNu3.com"></a></li>
     <!--<li><a href="http://gruponu3.com">GrupoNu3.com</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1Et9KJDjL47YZYHzew8hYF5WtYPzSCzr9u8LtmAAIaIo/edit#gid=2003473687" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
     <!--<li><a href="#">Estadisticas</a></li>-->
     <li><a href="../login.html" class="btn btn-link glyphicon glyphicon-user" title="Inicio de Sesión"></a></li>
     <!--<li><a href="../login.html">Login</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>
+    <!--<li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>-->
     <!--<li><a href="#">Plataforma de Archivos</a></li>-->
     <li><a href="../principal.html" class="btn btn-link glyphicon glyphicon-list-alt" title="Capacitaciones"></a></li>
     <!--<li><a href="../principal.html">Capacitaciones</a></li>-->
