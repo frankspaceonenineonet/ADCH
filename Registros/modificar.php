@@ -23,16 +23,16 @@
 	    <link href="../CSS/CSS_Registros/navandmodal.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-	<nav class="navbar navbar-inverse" data-spy="affix">
+<nav class="navbar navbar-inverse" data-spy="affix">
   <ul class="nav navbar-nav">
     <li class="active"><a href="#"><img src="../Logos/logonu3.png" width="60" height="35"></a></li>
     <li><a href="http://gruponu3.com" class="btn btn-link glyphicon glyphicon-home" title="GrupoNu3.com"></a></li>
     <!--<li><a href="http://gruponu3.com">GrupoNu3.com</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1Et9KJDjL47YZYHzew8hYF5WtYPzSCzr9u8LtmAAIaIo/edit#gid=2003473687" class="btn btn-link glyphicon glyphicon-tasks" title="Estadisticas"></a></li>
     <!--<li><a href="#">Estadisticas</a></li>-->
     <li><a href="../login.html" class="btn btn-link glyphicon glyphicon-user" title="Inicio de Sesión"></a></li>
     <!--<li><a href="../login.html">Login</a></li>-->
-    <li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>
+    <!--<li><a href="#" class="btn btn-link glyphicon glyphicon-folder-close" title="Plataforma de Archivos"></a></li>-->
     <!--<li><a href="#">Plataforma de Archivos</a></li>-->
     <li><a href="../principal.html" class="btn btn-link glyphicon glyphicon-list-alt" title="Capacitaciones"></a></li>
     <!--<li><a href="../principal.html">Capacitaciones</a></li>-->

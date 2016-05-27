@@ -52,7 +52,6 @@ DROP TABLE IF EXISTS `empresas`;
 CREATE TABLE `empresas` (
   `idempresa` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) COLLATE latin1_spanish_ci NOT NULL,
-  `giro` varchar(50) COLLATE latin1_spanish_ci NOT NULL,
   PRIMARY KEY (`idempresa`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci COMMENT='Tabla empresas para llevar el registro de las mismas.';
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -63,7 +62,7 @@ CREATE TABLE `empresas` (
 
 LOCK TABLES `empresas` WRITE;
 /*!40000 ALTER TABLE `empresas` DISABLE KEYS */;
-INSERT INTO `empresas` VALUES (1,'Agricola MAAS','Giro'),(2,'Agroquimicos y Semillas la Fuerte','Giro'),(3,'Pepe Filete','Giro'),(4,'El Porvenir','Giro'),(5,'Empacadora Bonnacarne','Giro'),(6,'Financiera la Fuerte','Giro'),(7,'Porcicola Garleon','Giro'),(8,'Grand Pet','Giro'),(9,'Inpro','Giro'),(10,'Lapimi','Giro'),(11,'Nu3 Alimentos Balanceados','Giro'),(12,'Nu3 Materia Prima','Giro');
+INSERT INTO `empresas` VALUES (1,'Agricola MAAS'),(2,'Agroquimicos y Semillas la Fuerte'),(3,'Pepe Filete'),(4,'El Porvenir'),(5,'Empacadora Bonnacarne'),(6,'Financiera la Fuerte'),(7,'Porcicola Garleon'),(8,'Grand Pet'),(9,'Inpro'),(10,'Lapimi'),(11,'Nu3 Alimentos Balanceados'),(12,'Nu3 Materia Prima');
 /*!40000 ALTER TABLE `empresas` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -117,7 +116,6 @@ CREATE TABLE `puestos` (
 
 LOCK TABLES `puestos` WRITE;
 /*!40000 ALTER TABLE `puestos` DISABLE KEYS */;
-INSERT INTO `puestos` VALUES (1,'AMPuesto1',1),(2,'AMPuesto2',1),(3,'AMPuesto3',1),(4,'ASFPuesto1',2),(5,'ASFPuesto2',2),(6,'ASFPuesto3',2),(7,'PFPuesto1',3),(8,'PFPuesto2',3),(9,'PFPuesto3',3),(10,'EPPuesto1',4),(11,'EPPuesto2',4),(12,'EPPuesto3',4),(13,'EBPuesto1',5),(14,'EBPuesto2',5),(15,'EBPuesto3',5),(16,'FFPuesto1',6),(17,'FFPuesto2',6),(18,'FFPuesto3',6),(19,'PGPuesto1',7),(20,'PGPuesto2',7),(21,'PGPuesto3',7),(22,'GPPuesto1',8),(23,'GPPuesto2',8),(24,'GPPuesto3',8),(25,'IPuesto1',9),(26,'IPuesto2',9),(27,'IPuesto3',9),(28,'LPuesto1',10),(29,'LPuesto2',10),(30,'LPuesto3',10),(31,'NAPuesto1',11),(32,'NAPuesto2',11),(33,'NAPuesto3',11),(34,'NMPuesto1',12),(35,'NMPuesto2',12),(36,'NMPuesto3',12);
 /*!40000 ALTER TABLE `puestos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
