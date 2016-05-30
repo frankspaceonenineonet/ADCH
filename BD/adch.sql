@@ -62,7 +62,7 @@ CREATE TABLE `empresas` (
 
 LOCK TABLES `empresas` WRITE;
 /*!40000 ALTER TABLE `empresas` DISABLE KEYS */;
-INSERT INTO `empresas` VALUES (1,'Agricola MAAS'),(2,'Agroquimicos y Semillas la Fuerte'),(3,'Pepe Filete'),(4,'El Porvenir'),(5,'Empacadora Bonnacarne'),(6,'Financiera la Fuerte'),(7,'Porcicola Garleon'),(8,'Grand Pet'),(9,'Inpro'),(10,'Lapimi'),(11,'Nu3 Alimentos Balanceados'),(12,'Nu3 Materia Prima');
+INSERT INTO `empresas` VALUES (1,'Agricola MAAS'),(2,'Agroquimicos y Semillas la Fuerte'),(3,'Pepe Filete'),(4,'El Porvenir'),(5,'Empacadora Bonnacarne'),(6,'Financiera la Fuerte'),(7,'Porcicola Garleon'),(8,'Grand Pet'),(9,'Inpro'),(10,'Lapimi'),(11,'Nu3 Alimentos Balanceados'),(12,'Agropecuaria Piedadense');
 /*!40000 ALTER TABLE `empresas` ENABLE KEYS */;
 UNLOCK TABLES;
 
