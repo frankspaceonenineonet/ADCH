@@ -6,6 +6,7 @@ video{
   margin-top: 20px; }
 
 .lite-modal {
+  width: 70%;
   padding: 40px;
   background-color: white;
   font-family: sans-serif;

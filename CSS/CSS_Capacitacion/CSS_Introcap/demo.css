@@ -157,7 +157,7 @@ box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;
 /* Loading
 ***********************/
 .loading #container {opacity: 0;}
-.loading:before  { content: 'LOADING'; display: block; margin: 100px 0 0; text-align: center; color: #940000; font-weight: bold; font-size: 60px; opacity: 0.3; }
+.loading:before  { content: 'Espere un Momento...'; display: block; margin: 100px 0 0; text-align: center; color: #940000; font-weight: bold; font-size: 60px; opacity: 0.3; }
 body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;}
 
 /* Layout
